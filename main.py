@@ -3,8 +3,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
 
 # کلیدهای API
-openai.api_key = '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'
-TELEGRAM_TOKEN = '7467637126:AAG_PP7dd4Xtqzut-gmmf1pwp-DuuGg71-M'
+openai.api_key = 'a'
+TELEGRAM_TOKEN = 'a'
 
 async def start(update: Update, context):
     await update.message.reply_text("سلام! من هوشینو هستم، از من هر سوالی داری بپرس.")
